@@ -8,4 +8,11 @@ img {
     height: auto;
 }
 
-@import "modules/_large-hero";
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: $mainOrange;
+}
+
