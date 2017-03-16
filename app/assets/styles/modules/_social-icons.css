@@ -1,0 +1,21 @@
+.social-icons {
+    text-align: center;
+
+    &__icon {
+        display: inline-block;
+        margin: 0 5px 5px 5px;
+        width: 30%;
+        height: 80px;
+        position: relative;
+
+        @mixin atSmall {
+            width: 72px;
+            height: 72px;
+            margin: 0 5px;
+        }
+
+        img {
+            display: block;
+        }
+    }
+}
